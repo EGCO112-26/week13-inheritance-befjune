@@ -33,8 +33,6 @@ void LL::add_node(NODE *&A){
           hol->insert(A);
           hol=A;
      }
-          
-
        size++;
 
  }
