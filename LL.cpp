@@ -28,9 +28,12 @@ void LL::show_all(){
      }
 }
 void LL::add_node(NODE *&A){
-
+     if(hol == NULL) hol = A;
+     else{
           hol->insert(A);
           hol=A;
+     }
+          
 
        size++;
 
