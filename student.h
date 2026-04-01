@@ -12,13 +12,13 @@ public:
    
 };
 
-student::student(long i, double g,string s):MU_person(i,s)/*send info to MU_person*/{
+student::student(long i, double g, string s):MU_person(i,s)/*send info to MU_person*/{
 // Finish constructor to set all values
   id = i;
   gpa = g;
   name = s;
   
-  cout<<"MU student constructor "<<gpa<<endl;
+  cout<<"MU student constructor  "<<gpa<<endl;
   /*cout<<"id: "<<id<<endl;
   cout<<"name: "<<name<<endl;*/
          

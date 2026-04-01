@@ -6,7 +6,7 @@ private:
 	string name;*/
 protected://ถ้าแปะใน protected ลูก(student)จะเข้าถึงได้
   long id;
-	std::string name;
+	string name;
 
 public:
 	MU_person(long=112, string = "Pakchee"); //รับมาจาก thai 2 ค่า เลยต้องเพิ่มมาอีก 2 ค่า
