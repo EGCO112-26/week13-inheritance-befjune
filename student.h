@@ -12,9 +12,15 @@ public:
    
 };
 
-student::student(long i, double g,string s){
+student::student(long i, double g,string s):MU_person(i,s)/*send info to MU_person*/{
 // Finish constructor to set all values
-         cout<<"MU student constructor  "<<gpa<<endl;
+  id = i;
+  gpa = g;
+  name = s;
+  
+  cout<<"MU student constructor "<<gpa<<endl;
+  /*cout<<"id: "<<id<<endl;
+  cout<<"name: "<<name<<endl;*/
          
   
 }
@@ -25,5 +31,6 @@ student::~student(){
 
 
 void student::display(){
-  //Finish Display function
+  display_person();
+  cout<<"Gpa: "<<gpa<<endl;
 }
